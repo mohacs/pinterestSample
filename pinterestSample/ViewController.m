@@ -120,7 +120,7 @@
     NSString *postBody;
     postBody = [NSString stringWithFormat:
               @"{\"options\":{\"board_id\":\"%@\",\"description\":\"%@\",\"link\":\"%@\",\"image_url\":\"%@\",\"method\":\"uploaded\"},\"context\":{\"app_version\":\"%@\",\"https_exp\":false}}",
-              @"299841356380109338",
+              textBoardID.text,
               @"COMMENT",
               @"http://apple.com",
               imageURL,
